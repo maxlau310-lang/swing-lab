@@ -1,0 +1,5 @@
+# Static Cloudflare Pages site. GitHub is the deploy mirror; Origin stays the
+# source of truth for development. No Worker, no Vercel.
+name = "swing-lab"
+compatibility_date = "2026-09-29"
+pages_build_output_dir = "out"

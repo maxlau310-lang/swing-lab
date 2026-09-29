@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "WenQuanYi Micro Hei", sans-serif;
+  --color-court: #070b12;
+  --color-panel: #101820;
+  --color-orange: #ff7a18;
+  --color-cyan: #3ee0ff;
+  --color-good: #3ddc97;
+  --color-warn: #ffb020;
+  --color-bad: #ff4d6a;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: #070b12;
+  color: #e8eef6;
+}
+
+body {
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+input[type="range"] {
+  accent-color: #ff7a18;
+}
+
+::selection {
+  background: rgba(255, 122, 24, 0.35);
+}
